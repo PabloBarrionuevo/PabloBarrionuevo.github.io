@@ -1,0 +1,149 @@
+/*     GENERAL     */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*     ENCABEZADO TITULO MENU Y BUSCADOR     */
+
+#Encabezado {
+    position: sticky;
+    top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .5cm;
+    color: white;
+    background-color: blueviolet;
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+}
+
+#Titulo {
+    width: 100%;
+    text-align: center;
+}
+
+#Menu {
+    float: left;
+    width: 80%;
+}
+
+#Menu>img {
+    float: left;
+    width: 3em;
+    height: 3em;
+}
+
+#Menu li>a>img,
+#Opciones li>a>img {
+    width: 1em;
+    height: 1em;
+}
+
+#Menu>nav>ul {
+    list-style: none;
+}
+
+#Menu ul>li {
+    float: left;
+}
+
+#Menu a {
+    padding: 5px 20px;
+    color: white;
+    cursor: default;
+    text-decoration: none;
+}
+
+#Menu a:hover {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+#Buscador {
+    float: right;
+    width: 20%;
+}
+
+
+/*     CUERPO NAVEGADOR Y CONTENIDO     */
+
+#Cuerpo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .4cm;
+    clear: both;
+}
+
+#Opciones {
+    float: left;
+    width: 20%;
+    height: calc(100vh - 20%);
+    background-color: blueviolet;
+}
+
+#Opciones>nav>ul {
+    list-style: circle;
+}
+
+#Opciones ul>li {
+    list-style: circle;
+    padding: 10px;
+    margin: 1px;
+}
+
+#Opciones a {
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+    background-color: lightsteelblue;
+    cursor: default;
+}
+
+#Opciones a:hover {
+    padding: 10px 15px;
+    border-bottom: 2px solid white;
+    color: white;
+    background-color: rgba(0, 0, 0, .6);
+    cursor: default;
+}
+
+#Contenidos {
+    float: right;
+    background-color: blueviolet;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    width: calc(80% - 2px);
+    height: auto;
+}
+
+#Contenidos>iframe {
+    width: 100%;
+    height: 800px;
+}
+
+
+/*     PIE     */
+
+#Pie {
+    clear: both;
+}
+
+#Pre {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: .3cm;
+    color: white;
+    background-color: blueviolet;
+    width: 100%;
+}
+
+
+/*OTROS*/
+
+.oculto,
+.enDesarrollo {
+    display: none;
+}
