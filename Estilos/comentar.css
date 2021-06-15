@@ -1,0 +1,34 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: .5cm;
+    margin: 0;
+    background-color: white;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+}
+
+p.ayuda {
+    color: darkslategray;
+}
+
+form {
+    background-image: url("../Recursos/Imagenes/Fondo.jpg");
+}
+
+input,
+textarea {
+    width: calc(100% - 2px);
+    height: 2em;
+}
+
+.error {
+    background-color: lightsalmon;
+}
+
+.mensaje {
+    width: calc(100% - 2px);
+    border: 1px solid black;
+}
